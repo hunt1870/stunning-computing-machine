@@ -1,0 +1,104 @@
+<html>
+<head>
+	<title>NavBArs</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  	.navbar-right{
+  		background-color:brown;}
+  		li{
+  		border-right: 1px solid gray;}
+  	input{
+  		margin-left: 5px;}
+  	}
+    .navbar-form{
+    	margin:auto;
+    }
+    #left{
+    	margin-top: auto;
+    	height: 34px;
+    }
+    .form-control{
+    	max-width:200px;
+    }
+  		</style>
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container container-fluid">
+	<div class="navbar-header">
+		 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+		<a class="navbar-brand" href="#"><span class="glyphicon glyphicon-camera" aria-hidden="true"></span> MY Site</a>
+	</div>
+	<div class="collapse navbar-collapse" id="myNavbar">
+	<ul class="nav navbar-nav">
+		<li class="active"><a href="navbar.html">Home</a>
+		<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Page 1-1</a></li>
+          <li><a href="#">Page 1-2</a></li>
+          <li><a href="#">Page 1-3</a></li>
+          <li><a href="#">Page 1-4</a></li>
+        </ul>
+	</ul>
+	 <form class="navbar-form navbar-left">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search">
+      </div>
+       <div class="input-group-btn input-group">
+      <button type="submit" class="btn btn-default" id="left"><i class="glyphicon glyphicon-search"></i></button>
+</div>
+    </form>
+		<ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span>Sign up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>Log in</a></li>
+    </ul>
+    <input type="button" class="btn btn-success navbar-btn" value="Click here">
+</div>
+</div>
+</nav>
+<div class="container">
+ <div class="jumbotron">
+      <h1><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> MY Gallery</h1>
+      <p>Here is some collections of beautiful pictures</p>
+    </div>
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-6">
+    <div class="thumbnail">
+      <img src="Image1.jpg">
+    </div>
+  </div>
+      <div class="col-lg-4 col-md-4 col-sm-6">
+    <div class="thumbnail">
+      <img src="Image2.jpg">
+    </div>
+  </div>
+      <div class="col-lg-4 col-md-4 col-sm-6">
+    <div class="thumbnail">
+      <img src="Image3.jpg">
+    </div>
+  </div>
+      <div class="col-lg-4 col-md-4 col-sm-6">
+    <div class="thumbnail">
+      <img src="Image4.jpg">
+    </div>
+  </div>
+      <div class="col-lg-4 col-md-4 col-sm-6">
+    <div class="thumbnail">
+      <img src="Image5.jpg">
+    </div>
+  </div>
+      <div class="col-lg-4 col-md-4 col-sm-6">
+    <div class="thumbnail">
+      <img src="Image6.jpg">
+    </div>
+  </div>
+  </div>
+</div>
+</body>
+</html>
