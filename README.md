@@ -1,2 +1,2 @@
-# stunning-computing-machine
-its just a simple webpage
+/*# stunning-computing-machine
+its just a simple webpage*/
